@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        background-color: #0e0e0e; 
+      }
+      
+      #header {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+      
+      #main {
+        background-color: #333; 
+        text-align: center;
+      }
+      
+      #container-pesos,
+      #container-tipo {
+        margin-bottom: 20px;
+      }
+      
+      #input-pesos,
+      #select-moneda {
+        width: 70%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      #btn {
+        padding: 10px 20px;
+        background-color: #5dbde9; 
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 70%;
+      }
+      
+      #btn:hover {
+        background-color: #1f4fa7; 
+      }
+      
+      #resultado p {
+        color: white;
+      }
